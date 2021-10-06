@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/gilroy-regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/gilroy-medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 600;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/gilroy-semibold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gilroy";
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  src: url("./assets/fonts/gilroy-bold.ttf") format("truetype");
+}
+
+* {
+  font-family: "Gilroy";
+  font-weight: 400;
+  font-style: normal;
+  color: #222222;
+  font-size: 18px;
+  line-height: 21px;
+  scroll-behavior: smooth;
+  margin: 0;
+  padding: 0;
+  outline: none;
+  border: none;
+  &:focus {
+    outline: none;
+  }
+}
+body {
+  background: #e5e5e5;
+}
+.container {
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+
+  @media (min-width: 960px) {
+    padding: 0;
+    max-width: 900px;
+  }
+  @media (min-width: 1240px) {
+    max-width: 1200px;
+  }
+  @media (min-width: 1904px) {
+    max-width: 1785px;
+  }
+}
+
+.d-flex {
+  display: flex;
+}
+.align-end {
+  align-items: flex-end;
+}
+.align-center {
+  align-items: center;
+}
+.justify-end {
+  justify-content: flex-end;
+}
+.justify-space-between {
+  justify-content: space-between;
+}
